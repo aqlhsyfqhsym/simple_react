@@ -1,0 +1,51 @@
+.leftHeader {
+  margin: auto;
+   display: flex;
+  flex-direction: column;
+  line-height: 51px;
+}
+
+.leftHeader h1 {
+  text-transform: uppercase;
+  margin: 0;
+  letter-spacing: 10px;
+  font-size: 90px;
+  text-align: center;
+  z-index: 1;
+  animation: colorAnimation 7s infinite;
+}
+
+.leftHeader h2 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #ffff;
+  font-size: 60px;
+  float: left;
+  text-align: center;
+  margin: 0;
+
+}
+
+.leftHeader span {
+  font-size: 12px;
+  letter-spacing: 8px;
+  text-align: center;
+}
+
+@keyframes colorAnimation {
+  0% {
+    color: #990057; /* Start with red */
+  }
+  25% {
+    color: #e67364; /* Change to green at 25% */
+  }
+  50% {
+    color: #009776; /* Change to blue at 50% */
+  }
+  75% {
+    color: #006682; /* Change to magenta at 75% */
+  }
+  100% {
+    color: #e4a700; /* End with yellow at 100% */
+  }
+}

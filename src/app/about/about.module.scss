@@ -1,0 +1,139 @@
+.gallery {
+  height: 175vh;
+  background: rgb(29, 29, 29);
+  position: relative;
+  display: flex;
+  gap: 2vw;
+  padding: 2vw;
+  box-sizing: border-box;
+  overflow: hidden;
+  .column {
+    position: relative;
+    height: 100%;
+    width: 25%;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    .imageContainer {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      border-radius: 1vw;
+      overflow: hidden;
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+    &:nth-of-type(1) {
+      top: -45%;
+    }
+    &:nth-of-type(2) {
+      top: -95%;
+    }
+    &:nth-of-type(3) {
+      top: -45%;
+    }
+    &:nth-of-type(4) {
+      top: -75%;
+    }
+  }
+}
+.spacer {
+  height: 100vh;
+}
+
+.spacer2 {
+  height: 100vh;
+  background-color: #c9c3ac;
+}
+
+.spacer3 {
+  height: 100vh;
+  background-color: rgb(29, 29, 29);
+}
+
+.contentTwo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100vh;
+
+  .aboutMe {
+    display: grid;
+    width: 100%;
+    place-content: center;
+    background-color: rgb(29, 29, 29);
+    padding: 20px;
+    color: #c9c3ac;
+
+    span {
+      font-size: 70px;
+      line-height: 60px;
+      text-transform: uppercase;
+      font-weight: 800;
+      letter-spacing: 5px;
+
+      .sub1 {
+        margin: 0px 50px;
+      }
+      .sub2 {
+        margin: 0px 0px 0px -60px;
+      }
+      .sub3sub4 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      .sub3 {
+        margin: 0px 0px 0px -19px;
+      }
+      .sub4 {
+        margin-left: 20px;
+        font-size: 10px;
+        line-height: 14px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        text-align: justify;
+      }
+    }
+  }
+
+  .aboutMe2 {
+    font-size: 70px;
+    position: relative;
+    left: 140px;
+    color: #fbfbfb;
+    .textDeco {
+      font-style: italic;
+      font-family: serif;
+    }
+  }
+
+  .aboutMe3 {
+    color: #fbfbfb;
+    font-weight: 200;
+
+    display: flex;
+    flex-direction: column;
+    p {
+      padding: 100px;
+      width: 70%;
+      line-height: 23px;
+    }
+    span {
+      display: flex;
+      align-items: baseline;
+      width: 50%;
+      top: 10px;
+    }
+  }
+}
+
+.imageWrap {
+  width: 30%;
+  height: 100vh;
+  background-color: #c9c3ac;
+}
