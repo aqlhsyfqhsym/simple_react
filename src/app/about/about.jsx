@@ -84,17 +84,20 @@ export default function Home() {
         <div className={styles.contentTwo}>
           <div className={styles.aboutMe3}>
             <p>
-              Honestly, I have a bit of a love-hate relationship with coding.
-              There are times when I really dislike it because it forces me to
-              think when I'd rather give my brain a break. But but but, Once it
-              starts working, I experience a sense of cleverness and success –
-              that's when the love for it kicks in!
+              Truthfully, my feelings toward coding are a bit of a
+              rollercoaster. There are moments when I find it frustrating, as it
+              compels me to engage my brain when I crave relaxation. However,
+              once I see it functioning smoothly, a feeling of accomplishment
+              and cleverness emerges – that's when my love for it takes over!
             </p>
+          <img src="img/me.png" alt="" style={{objectFit:"contain", width: "25%" , margin: "0 auto" , transform: "rotate(351deg)", }} />
           </div>
           <div className={styles.aboutMe3}>
-            <span style={{height: "50vh"}}></span>
+            
+            <span style={{ height: "50vh" }}>
+            </span>
             <span>
-              I've got 2 years of experience in this field. Before, I was doing
+              I got 2 years of experience in this field. Before, I was doing
               both UI/UX design and front-end development at the same time. It
               gave me loads of know-how in both design and development.
               <br />
@@ -105,6 +108,18 @@ export default function Home() {
               a front-end developer. It seems like these days, finding folks
               with solid development skills is getting pretty rare (is it??)
             </span>
+          </div>
+        </div>
+      </div>
+      <div className={styles.spacer3}>
+        <div className={styles.contentTwo}>
+          <div className={styles.aboutMe3}>
+            <p>
+              When I'm chillin', I vibe out to some songs, or maybe I'll just
+              scroll through TikTok for a bit. But when I'm feeling motivated
+              and want to be productive, I update my portfolio, whip up some
+              baking tools in my kitchen, and do some baking.
+            </p>
           </div>
         </div>
       </div>
