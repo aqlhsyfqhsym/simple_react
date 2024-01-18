@@ -1,0 +1,98 @@
+
+
+.customOverlay {
+  background: rgba(
+    0,
+    0,
+    0,
+    0.75
+  ); // Use the appropriate color or replace with a variable
+  backdrop-filter: blur(20px);
+  padding: 2rem; // Equivalent to p-8
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  display: grid;
+  place-items: center;
+  overflow-y: scroll;
+  cursor: pointer;
+}
+
+.cardCtm {
+  background: linear-gradient(to bottom right, #9333ea, #4f46e5);
+  color: #fff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 32rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: default;
+  position: relative;
+  overflow: hidden;
+}
+
+.ctmText {
+  color: rgba(255, 255, 255, 0.1);
+  transform: rotate(12deg);
+  font-size: 250px;
+  position: absolute;
+  z-index: 0;
+  top: -6rem;
+  left: -6rem;
+}
+
+.circleContainer {
+  background-color: white;
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 0.5rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: #4f46e5;
+  display: grid;
+  place-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.secondaryCtmButtom {
+  background-color: transparent;
+  transition: background-color 0.3s;
+  color: white;
+  font-weight: 600;
+  width: 100%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.secondaryCtmButtom:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.primaryCtmButton {
+  background-color: white; /* Equivalent to bg-white */
+  transition: opacity 0.3s; /* Equivalent to transition-opacity */
+  color: #4f46e5; /* Equivalent to text-indigo-600 */
+  font-weight: 600; /* Equivalent to font-semibold */
+  width: 100%; /* Equivalent to w-full */
+  padding-top: 0.5rem; /* Equivalent to py-2 */
+  padding-bottom: 0.5rem; /* Equivalent to py-2 */
+  border-radius: 0.25rem; /* Equivalent to rounded */
+}
+
+.primaryCtmButton:hover {
+  opacity: 0.9; /* Equivalent to hover:opacity-90 */
+}
+
+.containerWrap {
+  display: flex;
+  gap: 12px;
+}
+
+p {
+  text-align: center;
+}

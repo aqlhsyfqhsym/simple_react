@@ -48,7 +48,7 @@ export default function Board() {
   return (
     <>
       <h4 className="status">{status}</h4>
-      <div className="container">
+      <div className="containerTictac">
         <div className="board-row">
           <Square
             value={squares[0]}

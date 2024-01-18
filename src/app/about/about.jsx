@@ -1,10 +1,12 @@
-import { useEffect, useRef, useState } from "react";
-import styles from "./about.module.scss";
 import Lenis from "@studio-freight/lenis";
+import { useEffect, useRef, useState } from "react";
 import { useTransform, useScroll, motion } from "framer-motion";
 import AnimatedTextHover from "./../../Components/animated_text/animated_text3";
+import TitleDesc from "./../../Components/title_and_desc";
 import AboutImage from "./../../Components/3d_image/3d_image";
 import BubbleTitle from "./../../Components/animated_text/animated_text4";
+
+import styles from "./about.module.scss";
 
 const images = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"];
 
@@ -90,12 +92,19 @@ export default function Home() {
               once I see it functioning smoothly, a feeling of accomplishment
               and cleverness emerges – that's when my love for it takes over!
             </p>
-          <img src="img/me.png" alt="" style={{objectFit:"contain", width: "25%" , margin: "0 auto" , transform: "rotate(351deg)", }} />
+            <img
+              src="img/me.png"
+              alt=""
+              style={{
+                objectFit: "contain",
+                width: "25%",
+                margin: "0 auto",
+                transform: "rotate(351deg)",
+              }}
+            />
           </div>
           <div className={styles.aboutMe3}>
-            
-            <span style={{ height: "50vh" }}>
-            </span>
+            <span style={{ height: "50vh" }}></span>
             <span>
               I got 2 years of experience in this field. Before, I was doing
               both UI/UX design and front-end development at the same time. It
@@ -120,6 +129,24 @@ export default function Home() {
               and want to be productive, I update my portfolio, whip up some
               baking tools in my kitchen, and do some baking.
             </p>
+            <div className={styles.listText}>
+              <TitleDesc
+                number="01."
+                title="INTERACTION"
+                desc="A pleasant experience for your users goes through the animations and interactions of your project, I spend time to imagine and design them to ensure a smooth and remarkable navigation."
+              />
+                <TitleDesc
+                number="02."
+                title="INTROVERTED"
+                desc="A pleasant experience for your users goes through the animations and interactions of your project, I spend time to imagine and design them to ensure a smooth and remarkable navigation."
+              />
+                  <TitleDesc
+                number="03."
+                title="PASSIONATE"
+                desc="A pleasant experience for your users goes through the animations and interactions of your project, I spend time to imagine and design them to ensure a smooth and remarkable navigation."
+              />
+              
+            </div>
           </div>
         </div>
       </div>

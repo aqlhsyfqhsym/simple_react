@@ -1,0 +1,32 @@
+.titleWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 22px;
+  align-items: flex-start;
+
+  .wrapTitle {
+    display: flex;
+    flex-direction: row;
+     align-items: flex-end;
+    gap : 10px;
+
+  }
+  .numberText {
+    font-size: 12px;
+    font-weight: 400;
+
+    color: #c9c3ac;
+
+  }
+  h1 {
+    margin: 0;
+    font-weight: 300;
+  }
+
+  .description {
+    padding: 0;
+    font-weight: 200;
+    width: 100%;
+    line-height: 24px;
+  }
+}
