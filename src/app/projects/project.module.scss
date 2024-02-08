@@ -2,6 +2,10 @@
   height: 100vh;
 }
 
+.spacer1 {
+  height: 115vh;
+}
+
 .container {
   margin: 0 auto;
 }
@@ -19,12 +23,14 @@
   opacity: 0.9;
 }
 
-.containerGrid {  
-  margin: 50px;
-  padding: 100px;
+.containerGrid {
+  // margin: 50px;
+  background-color: #c9c3ac;
+
+  padding: 150px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; 
-  grid-template-rows: 33vh  33vh  33vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 33vh 33vh 33vh;
   gap: 10px 10px;
   grid-auto-flow: row;
   grid-template-areas:
@@ -33,92 +39,50 @@
     "card5 card7 card8 card8";
 }
 
-.card1 { grid-area: card1; }
+.card1 {
+  grid-area: card1;
+}
 
-.card2 { grid-area: card2; }
+.card2 {
+  grid-area: card2;
+}
 
-.card-3 { grid-area: card-3; }
+.card-3 {
+  grid-area: card-3;
+}
 
-.card4 { grid-area: card4; }
+.card4 {
+  grid-area: card4;
+}
 
-.card5 { grid-area: card5; }
+.card5 {
+  grid-area: card5;
+}
 
-.card6 { grid-area: card6; }
+.card6 {
+  grid-area: card6;
+}
 
-.card7 { grid-area: card7; }
+.card7 {
+  grid-area: card7;
+}
 
-.card8 { grid-area: card8; }
+.card8 {
+  grid-area: card8;
+}
 
-//image grid
-// .imageGrid
-// {
-//   padding : 100px;
-//   display: grid;
+.tictacWrapper {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  h2 {
+    font-weight: 400;
+  }
 
-//   grid-template-rows: 1fr 1fr 1fr;
-//   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-
-//   gap: 5px;
-
-// }
-
-// .item0 {
-//   grid-row-start: 1;
-//   grid-column-start: 1;
-
-//   grid-row-end: 1;
-//   grid-column-end: 3;
-// }
-
-// .item1{
-//   grid-row-start: 1;
-//   grid-column-start: 3;
-
-//   grid-row-end: 3;
-//   grid-column-end: 3;
-// }
-
-// .item2{
-//   grid-row-start: 2;
-//   grid-column-start: 1;
-
-//   grid-row-end: 3;
-//   grid-column-end: 2;
-// }
-
-// .item3{
-//   grid-row-start: 2;
-//   grid-column-start: 2;
-
-//   grid-row-end: 4;
-//   grid-column-end: 3;
-// }
-
-// .item4 {
-
-//    grid-row-start: 3;
-//   grid-column-start: 1;
-
-//   grid-row-end: 4;
-//   grid-column-end: 2;
-
-// }
-
-// .item5 {
-
-//    grid-row-start: 3;
-//   grid-column-start: 3;
-
-//   grid-row-end: 4;
-//   grid-column-end: 6;
-
-// }
-// .item6 {
-
-//    grid-row-start: 1;
-//   grid-column-start: 4;
-
-//   grid-row-end: 2;
-//   grid-column-end: 6;
-
-// }
+  .textTitle {
+    color: #fff;
+    width: 40%;
+    line-height: 40px;
+  }
+}

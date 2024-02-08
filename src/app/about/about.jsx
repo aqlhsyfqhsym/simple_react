@@ -8,7 +8,7 @@ import BubbleTitle from "./../../Components/animated_text/animated_text4";
 
 import styles from "./about.module.scss";
 
-const images = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"];
+const images = ["_1.jpg", "_4.jpg", "_3.jpg", "_2.jpg", "_5.jpg", "_6.jpg"];
 
 export default function Home() {
   const gallery = useRef(null);
@@ -78,7 +78,7 @@ export default function Home() {
             </p>
           </div>
           <div className={styles.imageWrap}>
-            <img src="img/1.jpg" alt="" style={{ width: "95%" }} />
+            <img src="img/_4.jpg" alt="" style={{ width: "95%" }} />
           </div>
         </div>
       </div>
@@ -133,12 +133,12 @@ export default function Home() {
               <TitleDesc
                 number="01."
                 title="INTERACTION"
-                desc="A pleasant experience for your users goes through the animations and interactions of your project, I spend time to imagine and design them to ensure a smooth and remarkable navigation."
+                desc="Creating a great vibe for your users comes down to the cool animations and interactions in your project. I put in the time to dream up and design them, making sure your navigation feels smooth and totally awesome."
               />
                 <TitleDesc
                 number="02."
                 title="INTROVERTED"
-                desc="A pleasant experience for your users goes through the animations and interactions of your project, I spend time to imagine and design them to ensure a smooth and remarkable navigation."
+                desc="I'm more of an introvert, love my quiet moments, and recharge with me-time activities. It's my cozy way of thriving."
               />
                   <TitleDesc
                 number="03."

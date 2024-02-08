@@ -2,7 +2,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { FiAlertCircle } from "react-icons/fi";
 import styles from "./modal.module.scss";
 
-const modalImage = ({ isOpen, setIsOpen }) => {
+const modalImage = ({ isOpen, setIsOpen, 	title, description, }) => {
     return (
       <AnimatePresence>
         {isOpen && (
@@ -26,11 +26,10 @@ const modalImage = ({ isOpen, setIsOpen }) => {
                   <FiAlertCircle />
                 </div>
                 <h3 className="text-3xl font-bold text-center mb-2">
-                  One more thing!
+                  {title}
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
-                  aperiam vitae, sapiente ducimus eveniet in velit.
+                 {description}
                 </p>
                 <div className={styles.containerWrap}>
                   <button
