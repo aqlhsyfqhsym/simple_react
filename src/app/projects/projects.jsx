@@ -56,8 +56,8 @@ export default function Home() {
           </div>
           <div class={styles.card3}> 
             <img
-              className={styles.imageCard} style={{backgroundColor: "#fff", objectFit: "contain"}} 
-              src="img/mobile_6.png"
+              className={styles.imageCard} style={{backgroundColor: "#fff"}} 
+              src="img/project/golf_mobile.png"
               alt=""
               onClick={() => openModal("project3")}
             />
@@ -70,7 +70,7 @@ export default function Home() {
           </div>
           <div class={styles.card4}>
             <img
-              className={styles.imageCard}
+              className={styles.imageCard}  
               src="img/project/boost_logo.png"
               alt=""
               onClick={() => openModal("project4")}
@@ -86,7 +86,7 @@ export default function Home() {
           <div class={styles.card5}>
             <img
               className={styles.imageCard}
-              src="img/5.jpg"
+              src="img/project/me_mobile.gif"
               alt=""
               onClick={() => openModal("project5")}
             />
@@ -114,8 +114,8 @@ export default function Home() {
           </div>
           <div class={styles.card7}>
             <img
-              className={styles.imageCard}
-              src="img/4.jpg"
+              className={styles.imageCard} 
+              src="img/project/baked_mobile.png"
               alt=""
               onClick={() => openModal("project7")}
             />
@@ -129,7 +129,7 @@ export default function Home() {
           <div class={styles.card8}>
             <img
               className={styles.imageCard}
-               src="img/project/boost_web.gif"
+               src="img/project/task_web.gif"
               alt=""
               onClick={() => openModal("project8")}
             />
