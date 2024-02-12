@@ -1,5 +1,3 @@
-
-
 .customOverlay {
   background: rgba(
     0,
@@ -22,12 +20,13 @@
 }
 
 .cardCtm {
-  background: linear-gradient(to bottom right, #9333ea, #4f46e5);
+  // background: linear-gradient(to bottom right, #9333ea, #4f46e5);
+  background-color: rgb(29, 29, 29);
   color: #fff;
   padding: 1.5rem;
   border-radius: 0.5rem;
   width: 100%;
-  max-width: 32rem;
+  max-width: 40rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   cursor: default;
   position: relative;
@@ -74,14 +73,19 @@
 }
 
 .primaryCtmButton {
-  background-color: white; /* Equivalent to bg-white */
-  transition: opacity 0.3s; /* Equivalent to transition-opacity */
-  color: #4f46e5; /* Equivalent to text-indigo-600 */
-  font-weight: 600; /* Equivalent to font-semibold */
-  width: 100%; /* Equivalent to w-full */
-  padding-top: 0.5rem; /* Equivalent to py-2 */
-  padding-bottom: 0.5rem; /* Equivalent to py-2 */
-  border-radius: 0.25rem; /* Equivalent to rounded */
+  background-color: white;
+  transition: opacity 0.3s;
+  color: rgb(29, 29, 29);
+  font-weight: 600;
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 0.25rem;
+  margin: 20px 0px;
+}
+
+.containerDescText {
+  margin: 20px 0px;
 }
 
 .primaryCtmButton:hover {
@@ -94,5 +98,47 @@
 }
 
 p {
-  text-align: center;
+  text-align: left;
+}
+
+a {
+  color: #c9c3ac;
+}
+
+.containerCollage {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.7fr 0.8fr;
+  gap: 10px;
+  grid-auto-flow: row;
+  align-content: center;
+  grid-template-areas:
+    "logo1 logo2 mobile"
+    "web web mobile";
+
+  img {
+    border-radius: 12px;
+  }
+}
+
+.saImage {
+  object-fit: cover;
+  height: 50vh;
+  border-radius: 20px;
+}
+
+.web {
+  grid-area: web;
+}
+
+.logo1 {
+  grid-area: logo1;
+}
+
+.logo2 {
+  grid-area: logo2;
+}
+
+.mobile {
+  grid-area: mobile;
 }
