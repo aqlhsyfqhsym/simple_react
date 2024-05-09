@@ -3,6 +3,7 @@ import {
     BehanceIcon,
     DribbbleIcon,
     LinkedInIcon,
+    LinkIcon,
   } from "./icon_image";
   
   const ContactInfo = [
@@ -28,6 +29,13 @@ import {
       info: {
         icon: <InstagramIcon />,
         link: "https://www.instagram.com/aqlhsyfqhsym/",
+      },
+    },
+    
+    {
+      info: {
+        icon: <LinkIcon />,
+        link: "https://bento.me/aqilahsyafiqah",
       },
     },
   ];
