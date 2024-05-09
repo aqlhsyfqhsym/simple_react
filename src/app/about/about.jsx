@@ -73,7 +73,7 @@ export default function Home() {
               front-end developer. Currently <br />
               <span style={{ marginLeft: "50px" }}>
                 {" "}
-                based in <span className={styles.textDeco}>Shah Alams</span>{" "}
+                based in <span className={styles.textDeco}>Shah Alam</span>{" "}
               </span>
             </p>
           </div>
