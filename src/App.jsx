@@ -35,7 +35,7 @@ function App() {
     <main className="main">
       <div className="stickyText"> aqilah syafiqah</div>
       <div className="hero-container">
-        <video src={BackgroundVideo} autoPlay loop muted playsinline/>
+        <video src={BackgroundVideo} autoPlay loop muted playsinline preload/>
         <div className="headerDesc">
           <AnimatedTextCharacter text="AQILAH SYAFIQAH" />
           <AnimatedTextWord text="Shah Alam City, MY" />
