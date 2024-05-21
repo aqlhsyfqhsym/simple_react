@@ -66,7 +66,7 @@ export default function Home() {
               {" "}
               <span className={styles.textDeco}>Hey! </span> I'm Aqilah, <br />
               <span style={{ marginLeft: "50px" }}>
-                a twenty-five years{" "}
+                a twenty-six years{" "}
                 <span className={styles.textDeco}>old </span>
               </span>
               <br />
@@ -104,7 +104,7 @@ export default function Home() {
             />
           </div>
           <div className={styles.aboutMe3}>
-            <span style={{ height: "50vh" }}></span>
+            <span className={styles.spaceMobile} style={{ height: "50vh" }}></span>
             <span>
               I got 2 years of experience in this field. Before, I was doing
               both UI/UX design and front-end development at the same time. It
@@ -123,7 +123,7 @@ export default function Home() {
       <div className={styles.spacer3}>
         <div className={styles.contentTwo}>
           <div className={styles.aboutMe3}>
-            <p>
+            <p className={styles.hide} >
               When I'm chillin', I vibe out to some songs, or maybe I'll just
               scroll through TikTok for a bit. But when I'm feeling motivated
               and want to be productive, I update my portfolio, whip up some

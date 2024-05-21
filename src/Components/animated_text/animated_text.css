@@ -56,7 +56,6 @@
     text-transform: uppercase;
 
  
-    text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 5px;
 }
@@ -112,5 +111,23 @@
     font-weight: 400;
     color: #c9c3ac;
     margin: 0px 30px;
+
+}
+
+
+@media screen and (max-width: 468px) {
+    .App{ 
+    /* display: none; */
+    height: 50vh;
+
+    }
+
+    .title-head1 {
+     font-size: 2rem;
+    }
+
+    .title-head2 {
+        font-size: 2rem;
+       }
 
 }
