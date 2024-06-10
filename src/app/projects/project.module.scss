@@ -85,4 +85,37 @@
     width: 40%;
     line-height: 40px;
   }
+
+  .containerGridMobile{
+    display: none;
+  }
+}
+
+/* mobile-view */
+@media screen and (max-width: 763px) {
+
+  .spacer1 {
+    height: 100vh;
+  }
+
+  .containerGrid { 
+    padding: 100px 25px 82px 25px;
+    display: block;
+    
+  }
+
+.containerGridMobile{
+  display: flex;
+  flex-direction: column;
+}
+
+.boxcardRow{
+  display: flex;
+  flex-direction: row;
+}
+
+.imageCard {
+   border-radius: 12px;
+   margin:10px 0px;
+}
 }

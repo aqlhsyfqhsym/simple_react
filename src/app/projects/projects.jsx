@@ -234,7 +234,13 @@ export default function Home() {
               isOpen={modal.project8}
               setIsOpen={() => setModal({ project8: false })}
               title="Task Management System (UI/UX & Front-End)"
-              description={<>In House System, develop using larevel PHP, HTML/CSS as a front side with bootstrap framework. some animation are from scratch. </>}
+              description={
+                <>
+                  In House System, develop using larevel PHP, HTML/CSS as a
+                  front side with bootstrap framework. some animation are from
+                  scratch.{" "}
+                </>
+              }
               siteName="Cara Task Management System"
               livesite="https://task.cara.com.my/"
               image1="img/project/certificate.png"
@@ -245,9 +251,72 @@ export default function Home() {
               displayContentB="none"
               image5="img/"
             />
-        
           </div>
         </div>
+        {/* <div className={styles.containerGridMobile}>
+          <div className={styles.boxcardRow}>
+            <div className={styles.boxcard1}>
+              <img
+                className={styles.imageCard}
+                src="img/project/web.png"
+                alt=""
+                onClick={() => openModal("project1")}
+              />
+              <Modal
+                isOpen={modal.project1}
+                setIsOpen={() => setModal({ project1: false })}
+                title="Powefy-AU"
+                description={
+                  <>
+                    Develop the entire system using React.js, Next.js, and
+                    Bootstrap/SCSS, ensuring precise implementation of the
+                    design envisioned by the creative team in Figma{" "}
+                  </>
+                }
+                siteName="Hot Water Saving"
+                livesite="https://hotwatersavings.au/"
+                image1="img/project/web.png"
+                image2="img/project/logo-1.png"
+                image3="img/project/hws_logo2.png"
+                image4="img/project/powerfy_mobile.gif"
+                displayContentA="block"
+                displayContentB="none"
+                image5="img/"
+              />
+            </div>
+            <div className={styles.boxcard1}>
+              {" "}
+              <img
+                className={styles.imageCard}
+                src="img/project/powerfy_mobile.gif"
+                alt=""
+                onClick={() => openModal("project2")}
+              />
+              <Modal
+                isOpen={modal.project2}
+                setIsOpen={() => setModal({ project2: false })}
+                title="Powefy-AU"
+                description={
+                  <>
+                    Develop the entire system using React.js, Next.js, and
+                    Bootstrap/SCSS, ensuring precise implementation of the
+                    design envisioned by the creative team in Figma{" "}
+                  </>
+                }
+                siteName="Hot Water Saving"
+                livesite="https://hotwatersavings.au/"
+                image1="img/project/web.png"
+                image2="img/project/logo-1.png"
+                image3="img/project/hws_logo2.png"
+                image4="img/project/powerfy_mobile.gif"
+                displayContentA="block"
+                displayContentB="none"
+                image5="img/"
+              />{" "}
+            </div>
+         
+          </div>
+        </div> */}
       </div>
 
       {/* tictac section */}
