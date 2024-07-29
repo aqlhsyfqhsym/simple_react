@@ -8,7 +8,7 @@ import BubbleTitle from "./../../Components/animated_text/animated_text4";
 
 import styles from "./about.module.scss";
 
-const images = ["_1.jpg", "_4.jpg", "_3.jpg", "_2.jpg", "_5.jpg", "_6.jpg"];
+const images = ["_1.webp", "_4.webp", "_3.jpg", "_2.jpg", "_5.jpg", "_6.webp"];
 
 export default function Home() {
   const gallery = useRef(null);
@@ -78,7 +78,7 @@ export default function Home() {
             </p>
           </div>
           <div className={styles.imageWrap}>
-            <img src="img/_4.jpg" alt="" style={{ width: "95%" }} />
+            <img src="img/me1.png" alt="" style={{ width: "95%" }} />
           </div>
         </div>
       </div>
