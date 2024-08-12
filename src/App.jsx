@@ -1,4 +1,4 @@
-import BackgroundVideo from "./assets/video/video2.mp4";
+import BackgroundVideo from "./assets/video/video.mp4";
 import Contact from "./Components/contact";
 import Button from "./Components/button";
 import List from "./Components/text_description";

@@ -17,6 +17,7 @@ export default function Home() {
     project5: false,
     project6: false,
     project7: false,
+    project9: false,
   });
   const openModal = (project) => {
     setModal({ ...modal, [project]: true });
@@ -252,71 +253,42 @@ export default function Home() {
               image5="img/"
             />
           </div>
-        </div>
-        {/* <div className={styles.containerGridMobile}>
-          <div className={styles.boxcardRow}>
-            <div className={styles.boxcard1}>
-              <img
-                className={styles.imageCard}
-                src="img/project/web.png"
-                alt=""
-                onClick={() => openModal("project1")}
-              />
-              <Modal
-                isOpen={modal.project1}
-                setIsOpen={() => setModal({ project1: false })}
-                title="Powefy-AU"
-                description={
-                  <>
-                    Develop the entire system using React.js, Next.js, and
-                    Bootstrap/SCSS, ensuring precise implementation of the
-                    design envisioned by the creative team in Figma{" "}
-                  </>
-                }
-                siteName="Hot Water Saving"
-                livesite="https://hotwatersavings.au/"
-                image1="img/project/web.png"
-                image2="img/project/logo-1.png"
-                image3="img/project/hws_logo2.png"
-                image4="img/project/powerfy_mobile.gif"
-                displayContentA="block"
-                displayContentB="none"
-                image5="img/"
-              />
-            </div>
-            <div className={styles.boxcard1}>
-              {" "}
-              <img
-                className={styles.imageCard}
-                src="img/project/powerfy_mobile.gif"
-                alt=""
-                onClick={() => openModal("project2")}
-              />
-              <Modal
-                isOpen={modal.project2}
-                setIsOpen={() => setModal({ project2: false })}
-                title="Powefy-AU"
-                description={
-                  <>
-                    Develop the entire system using React.js, Next.js, and
-                    Bootstrap/SCSS, ensuring precise implementation of the
-                    design envisioned by the creative team in Figma{" "}
-                  </>
-                }
-                siteName="Hot Water Saving"
-                livesite="https://hotwatersavings.au/"
-                image1="img/project/web.png"
-                image2="img/project/logo-1.png"
-                image3="img/project/hws_logo2.png"
-                image4="img/project/powerfy_mobile.gif"
-                displayContentA="block"
-                displayContentB="none"
-                image5="img/"
-              />{" "}
-            </div>
-         
+          <div class={styles.card3}>
+            <img
+              className={styles.imageCard}
+              style={{ backgroundColor: "#fff" }}
+              src="img/project/freelance/sunway.png"
+              alt=""
+              onClick={() => openModal("project9")}
+            />
+            <Modal
+              isOpen={modal.project9}
+              setIsOpen={() => setModal({ project9: false })}
+              title="Sunway Wellesley Landing Page"
+              description={
+                <>
+                  This is my freelance project. I've been working with a Sunway
+                  client based in Penang. If you guys are planning to buy any
+                  property in Penang, feel free to fill out their form!
+                  Disclaimer: I'm not a real estate agent hehe. 
+                </>
+              }
+              siteName="Sunway Wellesley"
+              livesite="https://www.sunwaywellesley.com/"
+              image1="img/project/freelance/sunway.gif"
+              image2="img/project/freelance/sunway1.gif"
+              image3="img/project/freelance/sunway1.png"
+              image4=""
+              displayContentA="block"
+              displayContentB="none"
+              image5="img/"
+            />
           </div>
-        </div> */}
+      
+        </div>
+ 
+
+       
       </div>
 
       {/* tictac section */}
