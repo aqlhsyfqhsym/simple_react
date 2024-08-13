@@ -137,7 +137,7 @@ export default function Home() {
               />
                 <TitleDesc
                 number="02."
-                title="INTROVERTED"
+                title="INTROVERT"
                 desc="I'm more of an introvert, love my quiet moments, and recharge with me-time activities. It's my cozy way of thriving."
               />
                   <TitleDesc

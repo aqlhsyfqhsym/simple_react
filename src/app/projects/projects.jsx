@@ -18,6 +18,7 @@ export default function Home() {
     project6: false,
     project7: false,
     project9: false,
+    project10: false,
   });
   const openModal = (project) => {
     setModal({ ...modal, [project]: true });
@@ -277,14 +278,41 @@ export default function Home() {
               livesite="https://www.sunwaywellesley.com/"
               image1="img/project/freelance/sunway.gif"
               image2="img/project/freelance/sunway1.gif"
-              image3="img/project/freelance/sunway1.png"
-              image4=""
+              image3="img/project/freelance/sunway.png"
+              image4="img/project/freelance/sunway2.gif"
               displayContentA="block"
               displayContentB="none"
               image5="img/"
             />
           </div>
-      
+          <div class={styles.card3}>
+            <img
+              className={styles.imageCard}
+              style={{ backgroundColor: "#fff" }}
+              src="img/project/freelance/curie.png"
+              alt=""
+              onClick={() => openModal("project10")}
+            />
+            <Modal
+              isOpen={modal.project10}
+              setIsOpen={() => setModal({ project10: false })}
+              title="Curie Oncology"
+              description={
+                <>
+                  This is my another freelance project. This is a CMS website. I developed it using wordpress.
+                </>
+              }
+              siteName="Curie Oncology"
+              livesite="https://curieoncology.com.my/"
+              image1="img/project/freelance/curie.gif"
+              image2="img/project/freelance/sunway1.gif"
+              image3="img/project/freelance/sunway1.png"
+              image4="img/project/freelance/curie1.gif"
+              displayContentA="block"
+              displayContentB="none"
+              image5="img/"
+            />
+          </div>
         </div>
  
 
