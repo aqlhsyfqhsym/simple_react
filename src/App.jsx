@@ -38,7 +38,7 @@ function App() {
         <video src={BackgroundVideo} autoPlay loop muted playsinline preload  type="video/mp4"/>
         <div className="headerDesc">
           <AnimatedTextCharacter text="AQILAH SYAFIQAH" />
-          <AnimatedTextWord text="Shah Alam City, MY" />
+          <AnimatedTextWord text="Cyberjaya City, MY" />
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
