@@ -106,7 +106,7 @@ export default function Home() {
           <div className={styles.aboutMe3}>
             <span className={styles.spaceMobile} style={{ height: "50vh" }}></span>
             <span>
-              I got 2 years of experience in this field. Before, I was doing
+              I got 3 years of experience in this field. Before, I was doing
               both UI/UX design and front-end development at the same time. It
               gave me loads of know-how in both design and development.
               <br />
@@ -138,12 +138,12 @@ export default function Home() {
                 <TitleDesc
                 number="02."
                 title="INTROVERT"
-                desc="I'm more of an introvert, love my quiet moments, and recharge with me-time activities. It's my cozy way of thriving."
+                desc="I'm kind of an introvert, love my quiet time, and recharge with some me-time. It's my cozy way to recharge"
               />
                   <TitleDesc
                 number="03."
                 title="PASSIONATE"
-                desc="A pleasant experience for your users goes through the animations and interactions of your project, I spend time to imagine and design them to ensure a smooth and remarkable navigation."
+                desc="I'm really passionate about what I do, and I love creating seamless, user-friendly experiences that make a difference in how people interact with websites."
               />
               
             </div>
